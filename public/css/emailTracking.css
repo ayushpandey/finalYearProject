@@ -1,0 +1,310 @@
+/*! 2016-08-25 */.hidden {
+  display: none!important;
+}
+.clear {
+  clear: both;
+}
+.left: {
+  float: left;
+}
+.right: {
+  float: right;
+}
+
+/** Inbox SDK overrides ***/
+.inboxsdk__contentPanelContainer_contentContainer {
+  border-bottom-width: 0px!important;
+}
+/*** End Inbox SDK overrides ***/
+
+/** Bootstrap overrides ***/
+.in:hover {
+  text-decoration: none!important;
+}
+/*** Bootstrap overrides ***/
+
+
+.strike-modal-fullscreen {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  z-index: 501;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  padding: 110px 50px 50px 50px;
+  background: rgba(255, 255, 255, 0.8);
+}
+.strike-modal-fullscreen .strike-modal-container {
+  position: relative;
+  margin-top: -60px;
+  width: auto;
+  overflow: hidden;
+}
+.strike-modal-fullscreen .strike-modal-container .strike-modal-content {
+  margin-bottom: 0px;
+}
+.strike-modal-fullscreen .strike-modal-close, .strike-modal-fullscreen .strike-prompt-button {
+  cursor: pointer;
+}
+
+.strike-modal-fullscreen .strike-modal-container #signin-modal .video {
+  display: inline;
+}
+
+.strike-modal-fullscreen .strike-modal-container #signin-modal .permission-details {
+  text-align: left;
+  width: 400px;
+  margin-top: 35px;
+}
+.strike-modal-fullscreen .strike-modal-container #signin-modal .permission-details .permission {
+  margin-top: 20px;
+}
+.strike-modal-fullscreen .strike-modal-container #signin-modal .permission-details .permission .heading {
+  font-weight: 600
+}
+.strike-modal-fullscreen .strike-modal-container #signin-modal .permission-details .permission .description {
+  margin-top: 5px;
+}
+
+#people-profile {
+  border-left: 0.10px solid rgb(215, 215, 215);
+}
+
+#people-profile a {
+  color: #499aff;
+}
+
+#people-profile #sidebar-signin {
+  text-align: center;
+}
+#people-profile #sidebar-signin #signin-logo {
+  display: block;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+}
+
+#people-profile .person {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#people-profile .company {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(216, 216, 216);
+}
+#people-profile .profile {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#people-profile .profile .person .basic .left {
+  height: 80px;
+  width: 80px;
+  display: inline-block;
+}
+#people-profile .profile .person .basic .right {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -10px;
+  margin-left: 10px;
+  width: 50%
+}
+#people-profile .profile .person .profile-pic {
+  display: block;
+  border-radius: 4px;
+  width: 80px;
+  height: 80px;
+  margin-right: 10px
+}
+#people-profile .profile .person .name {
+  display: block;
+  margin: 10px 0px 5px 0px;
+  font-size: 16px;
+  color: #1d2024;
+  font-weight: normal;
+}
+#people-profile .profile .person .employment {
+  display: block;
+  margin: 10px 0 5px 0px;
+  font-size: 13px;
+  color: #6f767f;
+  font-weight: normal;
+}
+#people-profile .profile .person .bio {
+  display: inline-block;
+  display: inline-block;
+  margin: 10px 0px;
+  color: #6f767f;
+}
+#people-profile .profile .person .location {
+  margin: 10px 0px;
+}
+#people-people .profile .person .social {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10px;
+}
+#people-profile .profile .person .social a {
+  display: inline-block;
+  width: 20px;
+  margin: 0 5px 0 0;
+  text-align: center;
+}
+#people-profile .profile .company .title {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #828282;
+  margin-bottom: 10px;
+}
+
+#people-profile .profile .company .basic .left {
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+}
+#people-profile .profile .company .basic .right {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+  width: 50%;
+  overflow: hidden;
+}
+#people-profile .profile .company .profile-pic {
+  display: block;
+  border-radius: 4px;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px
+}
+#people-profile .profile .company .name {
+  display: block;
+  margin: 10px 0px 5px 0px;
+  font-size: 16px;
+  color: #1d2024;
+  font-weight: normal;
+}
+
+#people-profile .company .name a {
+  color: #1d2024 !important;
+  text-decoration: none;
+}
+#people-profile .company .name a:hover {
+  text-decoration: underline;
+}
+
+#people-profile .profile .company .employment {
+  display: block;
+  margin: 10px 0 5px 0px;
+  font-size: 13px;
+  color: #6f767f;
+  font-weight: normal;
+}
+#people-profile .profile .company .bio {
+  display: inline-block;
+  margin: 15px 0px 15px 0px;
+  color: #6f767f;
+}
+#people-profile .profile .company .location {
+  margin: 10px 0px;
+}
+#people-people .profile .company .social {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10px;
+}
+#people-profile .profile .company .social a {
+  display: inline-block;
+  width: 20px;
+  margin: 0 5px 0 0;
+  text-align: center;
+}
+#people-profile .profile .company .company-details {
+  margin-top: 20px;
+}
+#people-profile .profile .company .company-details .detail {
+  line-height: 20px;
+}
+#people-profile .profile .company .company-details .key {
+  float: left;
+}
+#people-profile .profile .company .company-details .value {
+  float: right;
+  text-transform: capitalize;
+}
+
+
+#dates .datepicker-container {
+  display: inline-block;
+}
+#dates .snooze-suggestions {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 15px;
+  margin-left: 10px
+}
+#dates .snooze-suggestions .title {
+  font-weight: 600;
+  font-size: 14px;
+}
+#dates .snooze-suggestions ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 15px 10px 0px;
+}
+#dates .snooze-suggestions ul li {
+   padding-top: 5px;
+   padding-bottom: 5px;
+   cursor: pointer;
+   word-spacing: 2px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+#dates .snooze-suggestions ul li:hover {
+   background: #CFCFCF;
+}
+#dates .snooze-date .selected {
+  margin-left: 5px;
+  font-style: italic;
+  color: #828282;
+}
+#dates .snooze-date .selected .selected-date {
+  text-align: center;
+}
+
+
+.existing-snooze {
+  margin: 15px;
+}
+.existing-snooze .description {
+  color: #626262;
+  text-align: center;
+  line-height: 20px;
+}
+.existing-snooze .buttons {
+  text-align: center;
+}
+
+.strike-salesforce-compose-bcc {
+  width: 50px!important;
+}
+.strike-salesforce-compose-bcc img.inboxsdk__button_iconImg {
+  width: 40px!important;
+}
+
+.salesforce-add-email-to-crm-attachment-icon {
+
+}
+
+select.form-control {
+  -webkit-appearance: menulist!important;
+}
+
+/*# sourceMappingURL=strike.css.map */

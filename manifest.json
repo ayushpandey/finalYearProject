@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+  "version": "1",
+  "name": "EmailTracking for Gmail",
+  "permissions": [
+    "storage",
+    "tabs" ,
+    "cookies",
+    "background",
+    "http://mail.google.com/*",
+    "https://mail.google.com/*",
+    "https://accounts.google.com/*",
+    "https://www.googleapis.com/*",
+    "gcm",
+    "notifications"
+  ],
+  "content_scripts": [{
+    "js": [
+      "public/js/inboxsdk.js",
+      "public/js/vendor.js",
+      "public/js/bootstrap.js"
+    ],
+    "css":[
+      "public/css/vendor.css",
+      "public/css/emailTracking.css"
+    ],
+    "matches": [
+      "http://mail.google.com/*",
+      "https://mail.google.com/*"
+    ],
+    "run_at": "document_end"
+  }],
+  "background": {
+   "page": "public/html/background.html"
+ },
+ "web_accessible_resources": ["public/**"]
+}

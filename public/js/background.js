@@ -171,9 +171,9 @@ chrome.runtime.onInstalled.addListener(function(details){
 
     var collection = db.collection('user');
     collection.insert({
-      deviceId: deviceId;
+      deviceId: deviceId
     });
-    
+
     //code for setting up FCM Sender ID needs change.
     function registerWithFCM(registrationId) {
       if (chrome.runtime.lastError) {
